@@ -1,0 +1,73 @@
+body{
+  text-align: center;
+  background-color: aquamarine;
+   background-image: url(bg1.png);
+}
+
+.navTitle{
+   height: 70px;
+   width: 100%;
+   background-color:black;
+   color:white;
+   font-size: 3rem;
+   border-radius: 0 0 0 0;
+   vertical-align: middle;
+   font-family: 'Merriweather', serif;
+}
+
+.form-signin{
+    padding: 10% 0% 20% 0%;
+}
+.userHead{
+   padding-bottom: 20px;
+   font-weight: 600;
+   font-size: 3.4rem;
+   font-family: 'Merriweather', serif;
+   color:Black;
+
+}
+
+.form-control{
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    height: 45px;
+    margin-bottom: 3px;
+}
+
+
+.listgroup{
+  padding-top: 4%; 
+  width: 32%;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  
+}
+.listgroup h1{
+    font-family: 'Merriweather', serif;   
+}
+.items{
+    margin: 5px 0px 0px 5px;
+}
+.lists_item{
+    height: 80px;
+    background-color:#A3E4DB;
+}
+.lists_item span{
+ font-size: 3.5rem;
+ font-weight: 600;
+  color: black;
+
+
+}
+
+.username{
+    font-size: 3.8rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-weight: 600;
+    color: black;
+ 
+      
+}

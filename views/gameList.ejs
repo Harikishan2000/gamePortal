@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link  href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navTitle"> 
+        <h1 class="col-2"> Game Zone</h1>          
+    </nav>
+
+    <div class="col-10  username">  Hello, <%=username %><%=dob %></div>
+    <div class="listgroup ">
+       
+        <h1 class="userHead"> Select  any  game!!!!!!</h1>
+   
+        <form class="items"  method="get" action="/snakeGame">
+            <button  type="submit" class="list-group-item  lists_item"><span>Snake & Bite Game</span> </button>
+        </form>
+        
+        <form class="items" method="get" action="/virusGame">
+            <button  type="submit" class="list-group-item lists_item "><span>Fighting Game</span> </button>
+        </form>
+
+        <form class="items"  method="get" action="/sudukoSolver">
+            <button  type="submit" class="list-group-item lists_item"><span>Suduko Solver</span></button>
+        </form>
+      </div>
+
+
+</body>
+</html>
